@@ -1,17 +1,19 @@
 body {
-   background: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0)), url(https://cdn.discordapp.com/attachments/668207953593106434/1500643154200625363/IMG_9742.jpg?ex=69f92e58&is=69f7dcd8&hm=df178a4bd7b7a754aef6ab8e2ff81f1f5972a2eebe4e93f4c97ff4753c222a68&);
+   background: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0)), url(https://64.media.tumblr.com/210c73468c6097337080eb88a89de8be/8239408fdc6d6bf5-13/s1280x1920/e60ec05170567954deba8a7aeef17fbadc679e96.png);
     
-background-size: contain;
+
   background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
+     background-size: 100% 100%;
 }
 
 #Main-Title{
     
     color: blueviolet;
     font-size: 100px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 0px;
     margin-bottom: 20px;
     -webkit-text-stroke: 2px black;
@@ -24,19 +26,19 @@ p {
 }
 
 button{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: black;
-    color: white;
-    font-size: 28px;
-    border-radius: 15px;
-    width: 200px;
-    height: 50px;
+   
 }
 
 #Create-Deck-Button {
     transition: 0.5s;
     margin-bottom: 10px;
-   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(82, 0, 114);
+    color: white;
+    font-size: 28px;
+    border-radius: 15px;
+    width: 200px;
+    height: 50px;
 }
 
 #Create-Deck-Button:hover{
@@ -52,7 +54,14 @@ button{
 
 #Create-Card-Button {
     transition: 0.5s;
-   
+    display: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: white;
+    font-size: 28px;
+    border-radius: 15px;
+    width: 200px;
+    height: 50px;
 }
 
 #Create-Card-Button:hover {
@@ -65,4 +74,31 @@ button{
 #Create-Card-Button:active {
     transform: scale(0.9);
     transition: 0.1s;
+}
+
+
+#decks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.deck {
+    width: 200px;
+    height: 300px;
+    background-color: rgb(196, 150, 206);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+    border-radius: 15px;
+    overflow-wrap: break-word;
+    overflow: hidden;
+}
+
+.decktitle{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+   font-size: 25px;
 }
