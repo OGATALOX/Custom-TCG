@@ -1,0 +1,68 @@
+body {
+   background: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0)), url(https://cdn.discordapp.com/attachments/668207953593106434/1500643154200625363/IMG_9742.jpg?ex=69f92e58&is=69f7dcd8&hm=df178a4bd7b7a754aef6ab8e2ff81f1f5972a2eebe4e93f4c97ff4753c222a68&);
+    
+background-size: contain;
+  background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#Main-Title{
+    
+    color: blueviolet;
+    font-size: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    -webkit-text-stroke: 2px black;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+button{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: white;
+    font-size: 28px;
+    border-radius: 15px;
+    width: 200px;
+    height: 50px;
+}
+
+#Create-Deck-Button {
+    transition: 0.5s;
+    margin-bottom: 10px;
+   
+}
+
+#Create-Deck-Button:hover{
+    background-color: grey;
+    color: beige;
+    transform: scale(1.05);
+}
+
+#Create-Deck-Button:active{
+    transform: scale(0.9);
+    transition: 0.1s;
+}
+
+#Create-Card-Button {
+    transition: 0.5s;
+   
+}
+
+#Create-Card-Button:hover {
+    background-color: grey;
+    color: beige;
+    transform: scale(1.05);
+    
+}
+
+#Create-Card-Button:active {
+    transform: scale(0.9);
+    transition: 0.1s;
+}
